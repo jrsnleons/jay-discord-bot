@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args) => {
     const embed = new Discord.MessageEmbed()
     .setImage(img)
     .setTitle(`From /r/${random}`)
-    .setURL(`https://reddit.com/${random}`)
+    .setURL(`https://reddit.com/${random}`);
 }
 
 module.exports.config = {
@@ -19,5 +19,5 @@ module.exports.config = {
     description: "",
     usage: "?meme",
     accessableby: "Members",
-    aliases:[]
+    aliases:['m']
 }
