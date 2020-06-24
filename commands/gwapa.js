@@ -2,13 +2,13 @@ const Discord = require("discord.js")
 const botconfig = require("../botsettings.json");
 
 module.exports.run = async (bot, message, args) => {
-    return message.reply(" @Jerson only")
+    return message.reply("(⁄ ⁄•⁄ω⁄•⁄ ⁄)     you...")
 }
 
 module.exports.config = {
-    name: "gwapo",
+    name: "gwapa",
     description: "tells who is gwapo",
-    usage: "?gwapo",
+    usage: "?gwapa",
     accessableby: "Members",
     aliases:[]
 }
