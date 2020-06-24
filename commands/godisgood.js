@@ -1,17 +1,15 @@
-//reply messages system
-
 const Discord = require("discord.js");
 const botconfig = require("../botsettings.json");
 
 module.exports.run = async (bot, message, args) => {
-    return message.channel.send(" o(*>ω<*)o Hello!!!");
+    return message.channel.send("all the time! ｡ﾟ( ﾟ^∀^ﾟ)ﾟ｡");
 }
 
 module.exports.config = {
-    name: "hi",
+    name: "godisgood",
     description: "",
-    usage: "?hi",
+    usage: "?godisgood",
     accessableby: "Members",
-    aliases:[]
+    aliases:['gig']
 }
 
