@@ -4,13 +4,13 @@ const botsettings = require('./botsettings.json');
 const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("guildMemberAdd", member => {
-    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === 'welcome-goodbye')
-    welcomeChannel.send (`Welcome! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ${member}`)
+    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === '🖐welcome-goodbye');
+    welcomeChannel.send (`Welcome! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ${member}`);
 })
 
 bot.on("guildMemberRemove", member => {
-    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === 'welcome-goodbye')
-    welcomeChannel.send (`Goodbye... ${member}  (ಥ﹏ಥ) *sniff *sniff`)
+    const welcomeChannel = member.guild.channels.cache.find(channel => channel.name === '🖐welcome-goodbye');
+    welcomeChannel.send (`Goodbye... ${member}  (ಥ﹏ಥ) *sniff *sniff`);
 })
 
 
