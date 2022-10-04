@@ -1,5 +1,5 @@
 # jay-discord-bot
-A personalize discord bot that is made to leaern more about JavaScript, NodeJS and the Discord API.
+A personalize discord bot that is made to learn more about JavaScript, NodeJS and the Discord API.
 It is a bot with minimal to basic features, since it is only made to learn the possibilities of a discord bot.
 
 ## Features
